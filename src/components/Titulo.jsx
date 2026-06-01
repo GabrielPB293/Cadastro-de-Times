@@ -1,0 +1,21 @@
+import { Link } from 'react-router'
+
+export function Titulo() {
+    return (
+        <>
+            <div className="flex bg-green-700 text-white p-3">
+                <img src="./logo.png" alt="Logo de Times"
+                    className="ml-2 mr-4 w-16 h-16" />
+                <div>
+                    <h1 className="text-3xl font-bold">Enciclopédia de Times de Futebol</h1>
+                    <h2 className="text-2xl italic">Conheça os maiores clubes do mundo</h2>
+                </div>
+            </div>
+            <nav className='text-right'>
+                <Link to="/" className='px-6 py-3 bg-green-900 text-white font-bold no-underline hover:underline hover:bg-green-800 hover:text-yellow-300'>Home</Link>&nbsp;&nbsp;
+                <Link to="/inclusao" className='px-6 py-3 bg-green-900 text-white font-bold no-underline hover:underline hover:bg-green-800 hover:text-yellow-300'>Inclusão</Link>&nbsp;&nbsp;
+                <Link to="/pesquisa" className='px-6 py-3 bg-green-900 text-white font-bold no-underline hover:underline hover:bg-green-800 hover:text-yellow-300'>Pesquisa</Link>&nbsp;&nbsp;
+            </nav>
+        </>
+    )
+}

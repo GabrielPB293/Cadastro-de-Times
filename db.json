@@ -1,0 +1,58 @@
+{
+  "times": [
+    {
+      "nome": "Internacional",
+      "brasao": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2lEv5iE1LSdwWsWTv_-vtt77ilBr2LW8RRw&s",
+      "fundacao": "234234",
+      "titulos": "234234234",
+      "rival": "dgfdfgfdg",
+      "estadio": "fdgdfgdfgd",
+      "id": "OJBI7Ht1834"
+    }
+  ],
+  "comentarios": [
+    {
+      "timeId": null,
+      "comentario": "caraca",
+      "avaliacao": 5,
+      "id": "h5c6t2SjoAA"
+    },
+    {
+      "timeId": "OJBI7Ht1834",
+      "comentario": "dsfsdfsdfsdfsdfs",
+      "avaliacao": 3,
+      "id": "nuihiQA22MY"
+    },
+    {
+      "timeId": "OJBI7Ht1834",
+      "comentario": "rgfegrergergerg",
+      "avaliacao": 3,
+      "id": "S593G7us3Ns"
+    },
+    {
+      "timeId": "OJBI7Ht1834",
+      "comentario": "dfgdfgdfgdfgdfgdfg",
+      "avaliacao": 4,
+      "id": "ER7NL2T4uZg"
+    },
+    {
+      "timeId": "OJBI7Ht1834",
+      "comentario": "dsfsdfsdfs",
+      "avaliacao": 3,
+      "id": "Q1lPvyuv6y8"
+    },
+    {
+      "timeId": "1",
+      "comentario": "kfifitfiytdiytdiyt",
+      "avaliacao": 3,
+      "id": "jdrQXymiw1Q"
+    },
+    {
+      "timeId": null,
+      "comentario": "sdfsdfsdfsdfsdf",
+      "avaliacao": 3,
+      "id": "KlOTCWOlUAQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

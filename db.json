@@ -31,9 +31,16 @@
   "comentarios": [
     {
       "timeId": "v-EjC1c4o0s",
-      "comentario": "sdjkhdsfkljhsdkfs",
+      "comentario": "Time Maravilho, orgulho do RS!!!",
+      "avaliacao": 5,
+      "id": "c8FI4q49pOE"
+    },
+    {
+      "timeId": "v-EjC1c4o0s",
+      "autor": "Jeferson",
+      "comentario": "Time com uma História incrível, mas o elenco atual uma naba.",
       "avaliacao": 3,
-      "id": "jaGomvOgeTk"
+      "id": "L5HIpPjHab8"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

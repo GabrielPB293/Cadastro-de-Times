@@ -3,6 +3,7 @@ import { useState } from "react"
 function CardTimes({ time, onExcluir }) {
     const [aberto, setAberto] = useState(false)
     const [comentario, setComentario] = useState("")
+    const [autor, setAutor] = useState("")
     const [avaliacao, setAvaliacao] = useState(0)
     const [hover, setHover] = useState(0)
     const [comentarios, setComentarios] = useState([])
@@ -21,12 +22,12 @@ function CardTimes({ time, onExcluir }) {
     }
 
     async function enviarComentario() {
-        if (!comentario.trim() || avaliacao === 0) {
+        if (!autor.trim() || !comentario.trim() || avaliacao === 0) {
             alert("Preencha o comentário e selecione uma avaliação!")
             return
         }
 
-        const novoComentario = { timeId: time.id, comentario, avaliacao }
+        const novoComentario = { timeId: time.id, autor, comentario, avaliacao }
 
         try {
             const resposta = await fetch("http://localhost:3000/comentarios", {
@@ -39,6 +40,7 @@ function CardTimes({ time, onExcluir }) {
             setComentarios([...comentarios, salvo])
             setComentario("")
             setAvaliacao(0)
+            setAutor("")
         } catch (erro) {
             console.log("Erro:", erro.message)
         }
@@ -99,13 +101,21 @@ function CardTimes({ time, onExcluir }) {
                                 onClick={() => setAvaliacao(estrela)}
                                 onMouseEnter={() => setHover(estrela)}
                                 onMouseLeave={() => setHover(0)}>
-                                {estrela <= (hover || avaliacao) ? "⭐" : "☆"}
+                                {estrela <= (hover || avaliacao) ? "★" : "☆"}
                             </span>
                         ))}
                         <span className="text-sm text-gray-500 ml-2 self-center">
                             {avaliacao > 0 ? `${avaliacao}/5` : "Selecione"}
                         </span>
                     </div>
+
+                    <input
+                        type="text"
+                        placeholder="Seu nome"
+                        value={autor}
+                        onChange={e => setAutor(e.target.value)}
+                        className="w-full rounded-lg border border-gray-300 p-2 text-sm focus:outline-none focus:ring-4 focus:ring-green-200"
+                    />
 
                     <textarea
                         rows={3}
@@ -127,7 +137,8 @@ function CardTimes({ time, onExcluir }) {
                             <p className="text-sm font-bold text-gray-600">Comentários:</p>
                             {comentarios.map((c, i) => (
                                 <div key={i} className="text-sm bg-gray-100 rounded p-2">
-                                    {"⭐".repeat(c.avaliacao)} — {c.comentario}
+                                        <div className="font-semibold text-gray-700">{c.autor ? c.autor : "Anônimo"}</div>
+                                        <div>{"⭐".repeat(c.avaliacao)} — {c.comentario}</div>
                                 </div>
                             ))}
                         </div>

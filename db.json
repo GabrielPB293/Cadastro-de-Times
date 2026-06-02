@@ -10,57 +10,30 @@
       "id": "v-EjC1c4o0s"
     },
     {
-      "nome": "Grêmio",
-      "brasao": "https://gartic.com.br/imgs/mural/se/sep_gabriel1914/escudo-do-gremio-f-b-p-a.png",
-      "fundacao": "1903",
-      "titulos": "44",
-      "rival": "Internacional",
-      "estadio": "Não tem estádio",
-      "id": "6K6warL96rU"
+      "nome": "Flamengo",
+      "brasao": "https://logodownload.org/wp-content/uploads/2016/09/flamengo-logo-0.png",
+      "fundacao": "1895",
+      "titulos": "111",
+      "rival": "Vasco da Gama",
+      "estadio": "Não Possuí Estádio",
+      "id": "SpFoGb3IPjg"
+    },
+    {
+      "nome": "Palmeiras ",
+      "brasao": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/500px-Palmeiras_logo.svg.png",
+      "fundacao": "1914",
+      "titulos": "56",
+      "rival": "Corinthians",
+      "estadio": "Allianz Parque",
+      "id": "xFjXirWOEVY"
     }
   ],
   "comentarios": [
     {
-      "timeId": null,
-      "comentario": "caraca",
-      "avaliacao": 5,
-      "id": "h5c6t2SjoAA"
-    },
-    {
-      "timeId": null,
-      "comentario": "dsfsdfsdfsdfsdfs",
+      "timeId": "v-EjC1c4o0s",
+      "comentario": "sdjkhdsfkljhsdkfs",
       "avaliacao": 3,
-      "id": "nuihiQA22MY"
-    },
-    {
-      "timeId": null,
-      "comentario": "rgfegrergergerg",
-      "avaliacao": 3,
-      "id": "S593G7us3Ns"
-    },
-    {
-      "timeId": null,
-      "comentario": "dfgdfgdfgdfgdfgdfg",
-      "avaliacao": 4,
-      "id": "ER7NL2T4uZg"
-    },
-    {
-      "timeId": null,
-      "comentario": "dsfsdfsdfs",
-      "avaliacao": 3,
-      "id": "Q1lPvyuv6y8"
-    },
-    {
-      "timeId": "1",
-      "comentario": "kfifitfiytdiytdiyt",
-      "avaliacao": 3,
-      "id": "jdrQXymiw1Q"
-    },
-    {
-      "timeId": null,
-      "comentario": "sdfsdfsdfsdfsdf",
-      "avaliacao": 3,
-      "id": "KlOTCWOlUAQ"
+      "id": "jaGomvOgeTk"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

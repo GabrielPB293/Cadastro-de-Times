@@ -4,7 +4,7 @@ export function Titulo() {
     return (
         <>
             <div className="flex bg-green-700 text-white p-3">
-                <img src="./logo.png" alt="Logo de Times"
+                <img src="https://images.vexels.com/media/users/3/140819/isolated/preview/4d0ae33b94fc8088280c24d681c2d638-estadio-de-manaus.png" alt="Logo de Times"
                     className="ml-2 mr-4 w-16 h-16" />
                 <div>
                     <h1 className="text-3xl font-bold">Enciclopédia de Times de Futebol</h1>

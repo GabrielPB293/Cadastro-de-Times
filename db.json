@@ -2,12 +2,21 @@
   "times": [
     {
       "nome": "Internacional",
-      "brasao": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2lEv5iE1LSdwWsWTv_-vtt77ilBr2LW8RRw&s",
-      "fundacao": "234234",
-      "titulos": "234234234",
-      "rival": "dgfdfgfdg",
-      "estadio": "fdgdfgdfgd",
-      "id": "OJBI7Ht1834"
+      "brasao": "https://www.ogol.com.br/img/logos/equipas/2245_imgbank_1683626195.png",
+      "fundacao": "1909",
+      "titulos": "57",
+      "rival": "Grêmio",
+      "estadio": "Estádio José Pinheiro Borda, popularmente conhecido como Estádio Beira-Rio",
+      "id": "v-EjC1c4o0s"
+    },
+    {
+      "nome": "Grêmio",
+      "brasao": "https://gartic.com.br/imgs/mural/se/sep_gabriel1914/escudo-do-gremio-f-b-p-a.png",
+      "fundacao": "1903",
+      "titulos": "44",
+      "rival": "Internacional",
+      "estadio": "Não tem estádio",
+      "id": "6K6warL96rU"
     }
   ],
   "comentarios": [
@@ -18,25 +27,25 @@
       "id": "h5c6t2SjoAA"
     },
     {
-      "timeId": "OJBI7Ht1834",
+      "timeId": null,
       "comentario": "dsfsdfsdfsdfsdfs",
       "avaliacao": 3,
       "id": "nuihiQA22MY"
     },
     {
-      "timeId": "OJBI7Ht1834",
+      "timeId": null,
       "comentario": "rgfegrergergerg",
       "avaliacao": 3,
       "id": "S593G7us3Ns"
     },
     {
-      "timeId": "OJBI7Ht1834",
+      "timeId": null,
       "comentario": "dfgdfgdfgdfgdfgdfg",
       "avaliacao": 4,
       "id": "ER7NL2T4uZg"
     },
     {
-      "timeId": "OJBI7Ht1834",
+      "timeId": null,
       "comentario": "dsfsdfsdfs",
       "avaliacao": 3,
       "id": "Q1lPvyuv6y8"

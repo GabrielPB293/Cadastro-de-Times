@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form"
 import { Titulo } from './components/Titulo'
 import { useState } from "react"
-import CardTime from "./components/CardFilme"
+import CardTimes from "./components/CardTimes"
 
 function Pesquisa() {
   const { register, handleSubmit } = useForm()
@@ -28,7 +28,7 @@ function Pesquisa() {
   }
 
   const listaTimes = times.map(time => (
-    <CardTime key={time.id} filme={time} />
+    <CardTimes key={time.id} time={time} />
   ))
 
   return (

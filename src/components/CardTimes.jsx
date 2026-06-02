@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function CardTime({ filme, onExcluir }) {
+function CardTimes({ time, onExcluir }) {
     const [aberto, setAberto] = useState(false)
     const [comentario, setComentario] = useState("")
     const [avaliacao, setAvaliacao] = useState(0)
@@ -10,7 +10,7 @@ function CardTime({ filme, onExcluir }) {
     async function abrirFechar() {
         if (!aberto) {
             try {
-                const resposta = await fetch(`http://localhost:3000/comentarios?timeId=${filme.id}`)
+                const resposta = await fetch(`http://localhost:3000/comentarios?timeId=${time.id}`)
                 const dados = await resposta.json()
                 setComentarios(dados)
             } catch (erro) {
@@ -26,7 +26,7 @@ function CardTime({ filme, onExcluir }) {
             return
         }
 
-        const novoComentario = { timeId: filme.id, comentario, avaliacao }
+        const novoComentario = { timeId: time.id, comentario, avaliacao }
 
         try {
             const resposta = await fetch("http://localhost:3000/comentarios", {
@@ -51,21 +51,21 @@ function CardTime({ filme, onExcluir }) {
     return (
         <div className="border-2 border-gray-500 rounded-lg p-3">
             <div className="flex">
-                <img src={filme.brasao} alt="Brasão"
+                    <img src={time.brasao} alt="Brasão"
                     className="w-32 h-32 mr-3 object-contain" />
                 <div className="flex-1">
-                    <h2 className="text-2xl font-bold">{filme.nome}</h2>
+                    <h2 className="text-2xl font-bold">{time.nome}</h2>
                     <p className="font-bold text-lg my-1">
-                        📅 Fundado em: {filme.fundacao}
+                        📅 Fundado em: {time.fundacao}
                     </p>
                     <p className="font-bold text-lg my-1">
-                        🏆 Títulos: {filme.titulos}
+                        🏆 Títulos: {time.titulos}
                     </p>
                     <p className="font-bold text-lg my-1">
-                        ⚔️ Principal Rival: {filme.rival}
+                        ⚔️ Principal Rival: {time.rival}
                     </p>
                     <p className="text-gray-600 text-sm mt-1">
-                        🏟️ Estádio: {filme.estadio}
+                        🏟️ Estádio: {time.estadio}
                     </p>
                     {media && (
                         <p className="text-sm mt-1 font-bold text-yellow-600">
@@ -81,7 +81,7 @@ function CardTime({ filme, onExcluir }) {
                         </button>
                         <button
                             type="button"
-                            onClick={() => onExcluir(filme.id)}
+                            onClick={() => onExcluir(time.id)}
                             className="bg-red-500 hover:bg-red-600 text-white text-sm font-bold px-4 py-2 rounded-lg transition">
                             🗑️ Excluir
                         </button>
@@ -138,4 +138,4 @@ function CardTime({ filme, onExcluir }) {
     )
 }
 
-export default CardTime
+export default CardTimes

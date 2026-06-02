@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { Titulo } from "./components/Titulo"
-import CardTime from "./components/CardFilme"
+import CardTimes from "./components/CardTimes"
 
 function App() {
   const [times, setTimes] = useState([])
@@ -28,7 +28,7 @@ function App() {
   }
 
   const listaTimes = times.map(time => (
-    <CardTime filme={time} key={time.id} onExcluir={excluirTime} />
+    <CardTimes time={time} key={time.id} onExcluir={excluirTime} />
   ))
 
   return (

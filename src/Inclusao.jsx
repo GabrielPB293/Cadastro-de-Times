@@ -37,7 +37,6 @@ function Inclusao() {
   return (
     <>
       <Titulo />
-
       <div className="max-w-4xl mx-auto p-4">
         <div className="shadow-lg rounded-2xl p-6">
 
@@ -53,7 +52,7 @@ function Inclusao() {
                 Nome do Time:
               </label>
               <input type="text" id="nome" required
-                className="w-full rounded-lg border border-gray-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-green-200"
+                className="w-full rounded-lg border border-orange-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-orange-200"
                 {...register("nome")} />
             </div>
 
@@ -64,7 +63,7 @@ function Inclusao() {
                   Ano de Fundação:
                 </label>
                 <input type="number" id="fundacao" required
-                  className="w-full rounded-lg border border-gray-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-green-200"
+                  className="w-full rounded-lg border border-orange-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-orange-200"
                   {...register("fundacao")} />
               </div>
 
@@ -74,7 +73,7 @@ function Inclusao() {
                   Quantidade de Títulos:
                 </label>
                 <input type="number" id="titulos" required
-                  className="w-full rounded-lg border border-gray-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-green-200"
+                  className="w-full rounded-lg border border-orange-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-orange-200"
                   {...register("titulos")} />
               </div>
             </div>
@@ -86,7 +85,7 @@ function Inclusao() {
                   Principal Rival:
                 </label>
                 <input type="text" id="rival" required
-                  className="w-full rounded-lg border border-gray-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-green-200"
+                  className="w-full rounded-lg border border-orange-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-orange-200"
                   {...register("rival")} />
               </div>
 
@@ -96,7 +95,7 @@ function Inclusao() {
                   Nome do Estádio:
                 </label>
                 <input type="text" id="estadio" required
-                  className="w-full rounded-lg border border-gray-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-green-200"
+                  className="w-full rounded-lg border border-orange-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-orange-200"
                   {...register("estadio")} />
               </div>
             </div>
@@ -107,15 +106,15 @@ function Inclusao() {
                 URL do Brasão do Time:
               </label>
               <input type="url" id="brasao" required
-                className="w-full rounded-lg border border-gray-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-green-200"
+                className="w-full rounded-lg border border-orange-300 p-3 text-sm focus:outline-none focus:ring-4 focus:ring-orange-200"
                 {...register("brasao")} />
             </div>
 
             <div className="flex flex-col sm:flex-row gap-3 pt-2">
               <input type="submit" value="Cadastrar"
-                className="bg-green-600 hover:bg-green-700 text-white font-bold text-sm p-3 rounded-lg cursor-pointer transition"/>
+                className="bg-orange-600 hover:bg-orange-700 text-white font-bold text-sm p-3 rounded-lg cursor-pointer transition"/>
               <input type="reset" value="Limpar"
-                className="bg-red-500 hover:bg-red-600 text-white font-bold text-sm p-3 rounded-lg cursor-pointer transition"/>
+                className="bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm p-3 rounded-lg cursor-pointer transition"/>
             </div>
           </form>
         </div>

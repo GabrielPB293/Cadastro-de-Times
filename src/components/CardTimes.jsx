@@ -78,7 +78,7 @@ function CardTimes({ time, onExcluir }) {
                         <button
                             type="button"
                             onClick={abrirFechar}
-                            className="bg-green-600 hover:bg-green-700 text-white text-sm font-bold px-4 py-2 rounded-lg transition">
+                            className="bg-orange-600 hover:bg-orange-700 text-white text-sm font-bold px-4 py-2 rounded-lg transition">
                             💬 {aberto ? "Fechar" : "Comentar & Avaliar"}
                         </button>
                         <button

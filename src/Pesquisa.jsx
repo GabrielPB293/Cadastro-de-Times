@@ -37,11 +37,11 @@ function Pesquisa() {
       <h2 className="text-2xl my-2 p-3 font-bold">Pesquisa de Times</h2>
       <form className='text-center'
         onSubmit={handleSubmit(pesquisaTimes)}>
-        <input type="text" className='text-sm w-96 rounded-lg p-3 border border-gray-300 focus:outline-none focus:ring-4 focus:ring-green-200' required
+        <input type="text" className='text-sm w-96 rounded-lg p-3 border border-orange-300 focus:outline-none focus:ring-4 focus:ring-orange-200' required
           placeholder="Nome do time, rival ou estádio"
           {...register("pesquisa")} />
         <input type="submit" value="Pesquisar"
-          className='p-3 border-0 text-white text-sm font-bold cursor-pointer rounded-lg bg-green-700 ml-2' />
+          className='p-3 border-0 text-white text-sm font-bold cursor-pointer rounded-lg bg-orange-700 ml-2' />
       </form>
 
       <section className='grid grid-cols-3 gap-x-5 gap-y-3 p-3'>

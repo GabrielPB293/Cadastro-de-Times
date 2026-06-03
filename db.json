@@ -13,19 +13,19 @@
       "nome": "Flamengo",
       "brasao": "https://logodownload.org/wp-content/uploads/2016/09/flamengo-logo-0.png",
       "fundacao": "1895",
-      "titulos": "111",
+      "titulos": "65",
       "rival": "Vasco da Gama",
       "estadio": "Não Possuí Estádio",
       "id": "SpFoGb3IPjg"
     },
     {
-      "nome": "Palmeiras ",
-      "brasao": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/500px-Palmeiras_logo.svg.png",
-      "fundacao": "1914",
-      "titulos": "56",
-      "rival": "Corinthians",
-      "estadio": "Allianz Parque",
-      "id": "xFjXirWOEVY"
+      "nome": "Mirassol ",
+      "brasao": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Mirassol_FC_logo.png",
+      "fundacao": "1910",
+      "titulos": "2",
+      "rival": "Novorizontino",
+      "estadio": "Estádio Municipal José Maria de Campos Maia",
+      "id": "U8L8al3FOlw"
     }
   ],
   "comentarios": [
@@ -41,6 +41,34 @@
       "comentario": "Time com uma História incrível, mas o elenco atual uma naba.",
       "avaliacao": 3,
       "id": "L5HIpPjHab8"
+    },
+    {
+      "timeId": "v-EjC1c4o0s",
+      "autor": "Eduardo",
+      "comentario": "Time ruim",
+      "avaliacao": 1,
+      "id": "Ti3ZFEBP-iQ"
+    },
+    {
+      "timeId": "SpFoGb3IPjg",
+      "autor": "Miguel",
+      "comentario": "Amo esse time S2S2",
+      "avaliacao": 5,
+      "id": "9Ja4UsaNcwc"
+    },
+    {
+      "timeId": "SpFoGb3IPjg",
+      "autor": "Roberto",
+      "comentario": "Depois que o Gabigol saiu o time ficou sem graça.",
+      "avaliacao": 2,
+      "id": "Eupw8YVjUbQ"
+    },
+    {
+      "timeId": "v-EjC1c4o0s",
+      "autor": "gabriel",
+      "comentario": "time ",
+      "avaliacao": 5,
+      "id": "eWj9gut6W00"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
